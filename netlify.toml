@@ -1,5 +1,3 @@
 [build]
   command= "npm install && npm run build"
-  commandOrigin= "config"
-  functions= "/opt/build/repo/functions"
-  publish= "/opt/build/repo"
+  functions= "functions"
