@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const serverless = require('serverless-http');
 require('dotenv/config')
-const Mew = require('./model/mewSchema')
+const Mew = require('../model/mewSchema')
 const cors = require('cors')
 
 mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTopology:true}, ()=>{
