@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon app.js"
+    "build": "netlify-lambda build app.js",
+    "start": "nodemon server.js"
   },
   "author": "nurman",
   "license": "ISC",
