@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "start": "nodemon app.js"
   },
   "author": "nurman",
