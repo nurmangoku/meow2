@@ -18,7 +18,7 @@
     "express": "^4.17.1",
     "mocha": "^8.0.1",
     "mongoose": "^5.9.20"
-  }
+  },
   "devDependencies": {
     "netlify-lambda": "^1.6.3",
     "serverless-http": "^2.3.0"
