@@ -55,7 +55,5 @@ app.post('/mews',async (req,res)=>{
 
     } catch (err) {
         res.status(400).send(err)
-    }
-})
-
-app.listen(3000,()=>console.log('Server Running'))
+module.exports = app;
+module.exports.handler = serverless(app);
