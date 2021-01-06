@@ -13,7 +13,7 @@ mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTo
 const router = express.Router();
 
 app.set('view engine', 'ejs')
-app.use(express.static('public'))
+app.use(express.static('.public'))
 app.use(express.json())
 app.use('/.netlify/functions/server', router)
 app.use(cors())
